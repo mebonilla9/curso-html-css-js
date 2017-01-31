@@ -1,0 +1,23 @@
+Cascade Style Sheet
+
+Selectores -> Comando que permite encontrar elementos dentro de un documento
+
+Propiedades -> Las caracteristicas visuales de los elementos HTML, a las que se les asigna valor.
+
+Valores
+
+1em -> El alto de una M mayuscula de la fuente del sistema.
+
+body{
+	font-size:14px;
+}
+
+1em -> Alto de una M 14px fuente Helvetica
+
+em, ex, %, pt, vh, wh
+
+1vh = 1% del alto de la pagina.
+
+estilo1.css ->color rojo
+estilo2.css ->color verde
+estilo3.css ->color azul

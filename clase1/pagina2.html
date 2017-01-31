@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pagina de ejemplo</title>
+	<meta charset="utf-8">
+	
+	<style type="text/css">
+		h1 {
+			font-size: 3em !important;
+		}
+	</style>
+
+	<style type="text/css">
+		
+		body{
+			background-color: #DEDEDE;
+			font-family: Helvetica,Arial,sans-serif;
+			font-size: 14px;
+		}
+
+		h1{
+			color:#46f;
+			font-size: 2.5em;
+		}
+
+		/* Selector por ID*/
+		#contenedor{
+			width: 95%;
+			background-color: #FFF;
+			margin: 0 auto;
+			padding: 50px 10px 20px 10px;
+			border:solid 10px #F90;
+			padding-top: 10px;
+		}
+
+		#titulo, #menu{
+			display: inline-block;
+			width: 48%;
+		}
+
+		#menu{
+			text-align: right;
+		}
+
+		#menu ul{
+			list-style: none;
+		}
+
+		#menu ul li{
+			display: inline-block;
+			margin-right: 10px;
+			font-size:16px;
+			font-weight: bold;
+			color: #00F;
+			font-family: sans-serif;
+		}
+
+		#piePagina{
+			text-align: center;
+		}
+		#contenedorIzquierda{
+			float: left;
+			width: 80%;
+			border: solid;
+		}
+		#contenedorDerecha{
+			float: right;
+			width: 18%;
+			border: solid;
+		} 
+		
+	</style>
+
+<!--
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+-->
+
+</head>
+<body>
+	<div id="contenedor">
+		<div id="cabecera">
+			<header>
+				<div id="titulo">
+					<h1>Sitio de prueba</h1>
+				</div>
+				<div id="menu">
+					<nav>
+						<ul>
+							<li>Inicio</li>
+							<li>Acerca de...</li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+		</div>
+		<div id="contenido">
+			<div id="contenedorIzquierda">
+				<section>
+					<h2>Información Principal</h2>
+					<div class="articulo">
+						<article>
+							<h3>Gano Gael Monfils</h3>		
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus suscipit mollitia, quod, minima sed placeat dolor unde neque praesentium ullam reiciendis nam impedit eveniet alias soluta, quae est laboriosam fuga!</p>
+						</article>
+					</div>
+					<div class="articulo">
+						<article>
+							<h3>Gano Gael Monfils</h3>		
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus suscipit mollitia, quod, minima sed placeat dolor unde neque praesentium ullam reiciendis nam impedit eveniet alias soluta, quae est laboriosam fuga!</p>
+						</article>
+					</div>
+					<div class="articulo">
+						<article>
+							<h3>Gano Gael Monfils</h3>		
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus suscipit mollitia, quod, minima sed placeat dolor unde neque praesentium ullam reiciendis nam impedit eveniet alias soluta, quae est laboriosam fuga!</p>
+						</article>
+					</div>
+				</section>
+				<!--<ul>
+					<li>item</li>
+					<li>item</li>
+					<li>item</li>
+					<li>item</li>
+					<li>item</li>
+				</ul>-->
+			</div>
+			<div id="contenedorDerecha">
+				<aside>
+					<p>El aside sirve para escribir contenido importante en la pagina pero no relevante para la idea principal de la misma</p>
+				</aside>
+			</div>
+		</div>
+		<div id="piePagina">
+			<footer>
+				<p>Todos los derechos reservados. <br> Bogotá - 2017 </p>
+			</footer>
+		</div>
+	</div>
+</body>
+</html>
